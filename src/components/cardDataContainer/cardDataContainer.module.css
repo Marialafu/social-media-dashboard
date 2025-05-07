@@ -1,0 +1,60 @@
+.cardContainer{
+    background-color: #252B42;
+    width: 20.375rem;
+    height: 13.5rem;
+    padding: 1.5rem;
+    border-radius: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    justify-content: center;
+    align-items: center;
+    /* falta la línea azul */
+}
+.cardHeaderContainer{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+.cardMainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5625rem;
+    align-items: center;
+
+}
+.cardFooterContainer{
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.numberText{
+    font-size: 3.5rem;
+}
+.text{
+    font-size: 0.75rem;
+    color: var(--primary-color);
+}
+
+.icon{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.followers{
+    letter-spacing: 0.3125rem;
+    font-weight: 400;
+}
+.green{
+    /* color: var(--improve-statistics); */
+    color: #1EB589;
+  }
+.red{
+    color: var(--low-statistics);
+  }
+
+  .subtext{
+    color: #D8D8D8;
+    font-size: 0.75rem;
+}

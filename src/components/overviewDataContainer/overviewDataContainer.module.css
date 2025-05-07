@@ -1,0 +1,18 @@
+.overviewDataContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6875rem;
+    align-items: center;
+}
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4375rem;
+    align-items: center;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}

@@ -1,3 +1,6 @@
+/* El texto de today no se cambia de color */
+
+
 :root{
   --primary-color: #8C98C6;
 
@@ -41,4 +44,5 @@ body {
   font-family: "Inter", sans-serif;
   color: white;
   background-color: #1D1F29;
+  font-weight: 700;
 }

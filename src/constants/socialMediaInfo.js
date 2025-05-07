@@ -2,7 +2,8 @@ export const SOCIAL_MEDIA_INFO = [
     {
         name: 'facebook',
         followers: 1987,
-        newFollowers: 12,
+        todayFollowers: 12,
+        newFollowers: 'green',
         views: 87,
         likes: 52,
         logoImg: '/assets/images/icon-facebook.svg',
@@ -10,7 +11,8 @@ export const SOCIAL_MEDIA_INFO = [
     {
         name: 'instagram',
         followers: 11000,
-        newFollowers: 1099,
+        todayFollowers: 1099,
+        newFollowers: 'green',
         views: 52000,
         likes: 5462,
         logoImg: '/public/assets/images/icon-instagram.svg',
@@ -18,7 +20,8 @@ export const SOCIAL_MEDIA_INFO = [
     {
         name: 'twitter',
         followers: 1044,
-        newFollowers: 99,
+        todayFollowers: 99,
+        newFollowers: 'green',
         views: 117,
         likes: 507,
         logoImg: '/assets/images/icon-twitter.svg',
@@ -26,7 +29,8 @@ export const SOCIAL_MEDIA_INFO = [
     {
         name: 'youTube',
         followers: 8239,
-        newFollowers: 144,
+        todayFollowers: 144,
+        newFollowers: 'red',
         views: 1407,
         likes: 107,
         logoImg: 'public/assets/images/icon-youtube.svg',
