@@ -1,0 +1,13 @@
+.parentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.subtitle{
+    margin: 0;
+}

@@ -1,3 +1,15 @@
+:root{
+  --primary-color: #8C98C6;
+
+  --facebook-color: #178FF5;
+  --twitter-color: #1DA1F2;
+  --youTube-color: #C4032B;
+  --instagram-color: linear-gradient(40deg,#FDC366, #EE877E, #DF4896);
+
+  --improve-statistics: #1EB589;
+  --low-statistics: #DC414C;
+}
+
 *,
 *::after,
 *::before {
@@ -26,5 +38,7 @@ nav ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #1D1F29;
 }
